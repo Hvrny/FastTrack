@@ -17,6 +17,7 @@ document.querySelector("Form").addEventListener("submit", function (event) {
         document.querySelector("#responseMessage").innerText =
           "Name submitted successfully!";
         console.log("Success:", data);
+        document.querySelector("#userName").value = "";
       })
       .catch((error) => {
         document.querySelector("#responseMessage").innerText =
