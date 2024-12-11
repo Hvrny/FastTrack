@@ -1,0 +1,15 @@
+div {
+  text-align: center;
+}
+#userName {
+  margin: 8px;
+}
+#save {
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+#labelStyle {
+  font-size: larger;
+}
