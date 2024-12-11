@@ -13,3 +13,7 @@ div {
 #labelStyle {
   font-size: larger;
 }
+#responseMessage {
+  color: green;
+  font-weight: bolder;
+}
